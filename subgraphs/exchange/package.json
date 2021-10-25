@@ -2,7 +2,7 @@
   "name": "exchange",
   "description": "SphynxSwap Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:deep-quality-dev/dogeson-subgraph-v2.git",
+  "repository": "git@github.com:SphynxSwap/sphynx-subgraph.git",
   "author": "SphynxSwap",
   "license": "MIT",
   "scripts": {
