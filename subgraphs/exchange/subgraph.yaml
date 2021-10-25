@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: SphynxSwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
-repository: https://github.com/deep-quality-dev
+repository: https://github.com/SphynxSwap/
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xF946a9E05832Ecf4ae05f40c8c4a1ED47d79230E'
+      address: "0xF946a9E05832Ecf4ae05f40c8c4a1ED47d79230E"
       abi: Factory
       startBlock: 6809737
     mapping:
