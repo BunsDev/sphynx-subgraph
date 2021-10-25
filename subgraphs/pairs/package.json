@@ -1,0 +1,13 @@
+{
+  "name": "pairs",
+  "description": "SphynxSwap Subgraph",
+  "version": "1.0.0",
+  "repository": "git@github.com:deep-quality-dev/dogeson-subgraph-v2.git",
+  "author": "SphynxSwap",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen subgraph.yaml",
+    "build": "graph build subgraph.yaml",
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sphynx/pairs subgraph.yaml"
+  }
+}
