@@ -4,8 +4,8 @@ import { Pair, Token, Bundle } from "../generated/schema";
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from "./utils";
 
 let WBNB_ADDRESS = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c";
-let BUSD_WBNB_PAIR = "0x58f876857a02d6762e0101bb5c46a8c1ed44dc16"; // created block 589414
-let USDT_WBNB_PAIR = "0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae"; // created block 648115
+let BUSD_WBNB_PAIR = "0xC878c4BD3b58c8E6791301D4Ac10aa88f59707de"; // created block 12262579
+let USDT_WBNB_PAIR = "0x9993964Ad0ccd3d50D48D30805BFC491b7996391"; // created block 12265564
 
 export function getBnbPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin
